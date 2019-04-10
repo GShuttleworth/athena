@@ -1,2 +1,2 @@
-# athena
-Webex Teams Resources
+# athena Hack
+Webex Teams workshop Resources
