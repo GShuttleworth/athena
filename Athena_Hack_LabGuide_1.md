@@ -1,18 +1,8 @@
-# Athena Hack - Cisco Webex Lab Guide
+# Athena Hack ChatBot - Cisco Webex Lab Guide
 
-### Getting started
+## Getting Started
 
 These instructions will take you through the different tools and platforms used in this lab and provide you with a basic introduction to using the Cisco Webex Teams API and low code environment Built.io. With the aim of building a simple ChatBot. After completing this guide you may want to include Webex Teams in your own projects, if you do please reach out to one of our team onsite to let them know and see how we can support!
-
-### Prerequisites
-
-* A [Cisco Webex](https://www.webex.com)
-
-* A [Built.io](http://built.io) account
-
-* A [Giphy](http://giphy.com) account
-
-* Download Webex Teams Desktop https://www.webex.com/team-collaboration.html
 
 ### Registering for Cisco Webex Teams
 
@@ -26,105 +16,114 @@ Once we're registered you may want to test out Webex Teams by sending and receiv
 
 Alternatively you can use the web browser client which can be found at: https://teams.webex.com
 
-### Creating our Bot in Webex Teams and getting an access token
+### Other Prerequisites
 
-Now we have our Teams account, we have access to developer site for Webex Teams: https://developer.webex.com. This portal has guides to the Teams API, SDK's available and example projects to help you on your developer journey. We won't go into the details of this site in this lab but we do need to create our bot and get an access token/
+You will also need the following accounts for this lab. Make sure you create them before starting.
 
-To do this navigate to the 'My Apps' page of your account https://developer.webex.com/my-apps select 'Create New App' and when prompted choose the Bot type then complete by filling in the Bot Name / Username, selecting an Icon and giving it a short description. Once submitted, you will then be given an access token. Save this as we will use it later in the Built.io steps.
+* A [Built.io](http://built.io) account
 
-![alt text](Athena_Images1/bot-bearer.gif "The Bot Creation Workflow")
+* A [Giphy](http://giphy.com) account
 
+## Creating our Bot in Webex Teams and getting our access token
+
+Now we have our Teams account we have access to developer site for Webex Teams: https://developer.webex.com. This portal has guides to the Teams API, SDK's available and example projects to help you on your developer journey. We won't go into the details of this site in this lab but we do need to create our bot and get an access token/
+
+To do this navigate to the 'My Apps' page of your account https://developer.webex.com/my-apps select 'Create New App' and when prompted choose the Bot type then complete the form which asks for Username / Bot Name, Bot Icon and a short discription. Once submitted, you will then be given an access token. ***Save this as we will use it later in the Built.io steps.***
+
+![alt text](Athena_Images1/bot-bearer.gif)
 
 ### Creating a Webex Teams Room
 In this section you will download the Webex Teams desktop client, create a new space and add your bot to the space.
 
-1. If you have not already done so, Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams download page.
+1. If you have not already done so, Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams download page. Go back to the "Install the Webex Teams client" section if you've missed that step.
 
-2. Select "Download Teams" and install.
-
-3. Once teams is installed create a new teams space
-![alt text](Athena_Images1/teamscreateaspace.png "Create a Teams Space")
-
+2. Once teams is installed create a new teams space by pressing the "+" sign on the client
 
 3. Give your new space a name *(optionally you can add your bot name at this stage or we can do it later)*
-![alt text](Athena_Images1/teamscreateaspace2.png "Create a Teams Space")
 
-4. If you have not already added your bot do it now by selecting clicking dotted circle top right and selecting "Add People"
-![alt text](Athena_Images1/teamsaddbot.png "Create a Teams Space")
+4. If you have not already added your bot do it now by clicking the dotted button top right and selecting people then use the option to "add people"
 
 5. Type the name of the Bot you created.
-![alt text](Athena_Images1/teamsaddbot2.png "Create a Teams Space")
 
-COOL! Now you have a teams space and a bot. We now need to teach it how to talk and do stuff.
+![alt text](Athena_Images1/create-space.gif "Create a Teams Space")
 
-##Creating a Built.io Workflow for your Bot##
+COOL! Now you have a teams space and a bot, but it's not very interesting yet. We now need to teach it how to talk and do stuff.
 
-In this section we will build a workflow in built.io that will instruct our bot to perform some functions.
+## Creating a Built.io Workflow for your Bot
+
+Now its time to start to give our bot some intelligence. In this section we will build a workflow in built.io that will instruct our bot to perform some functions.
+
 We will use a standard Webex Teams workflow template
 
 If you have not already done so, log in or sign up [Built.io](http://built.io) and [Giphy](http://giphy.com) account
 
-1. Once you have logged in to built.io you will see this default screen
-![alt text](Athena_Images1/builtdefaultscreen.png "Create a Teams Space")
+#### Steps 1 - 4 Accessing the prebuilt Bot Library
 
-2. select "Library" and you will see a list of pre-defined workflows. We want to select the "Webex Teams BOT" workflow
-![alt text](Athena_Images1/builtdefaultadd.png "Create a Teams Space")
+![alt text](Athena_Images1/step1.gif "Step 1")
+
+1. Once you have logged in to built.io you will see the default screen where your projects will sit, right now we don't have any so lets move to step 2.
+
+2. select "Library" and you will see a list of pre-defined workflows. We want to select the "Webex Teams BOT" workflow ***There are two so make sure you pick the one that mentions BOT in the title (It's normally on the right hand side)***
 
 3. The Webex Teams Bot workflow will be added to your default project
-![alt text](Athena_Images1/builtaddfromlibrary2.png "Create a Teams Space")
 
 4. Select the worflow and then click it to open the dialogue
-![alt text](Athena_Images1/builtwebexteamsbot.png "Create a Teams Space")
+
 Now we start to populate the workflow with the Webex Teams information generated in the previous steps
 
+#### Steps 5 - 6 Adding the Bot Access Token
+
+![alt text](Athena_Images1/step2.gif "Step 2")
+
 5. From the dialoge box select "Connect to Cisco Webex Teams Bot"
-![alt text](Athena_Images1/builtaddnewbot.png "Connect to Bot")
 
 6. Give the Bot a name and insert the Bot Token you recored in the prevous Bot creation steps
-![alt text](Athena_Images1/builtaddbottoken.png "Add Bot Token")
 
-7.Now we need to add our space ID. To do this we need to go back to [deveoper.webex.com](https://https://developer.webex.com) and select documentation. We are looking for API REFERENCE and Rooms. [Shortcut here](https://developer.webex.com/docs/api/v1/rooms)
+#### Steps 7 - 12 Adding the RoomID
+
+![alt text](Athena_Images1/step3.gif "Step 3")
+
+7.Now we need to add our space ID. To do this we need to go back to [developer.webex.com](https://developer.webex.com) and select documentation. We are looking for API REFERENCE and Rooms. [Shortcut here](https://developer.webex.com/docs/api/v1/rooms)
 
 8.Once you are in the rooms API documentation you will find the Rooms API Calls. Select "LIST ROOMS"
-![alt text](Athena_Images1/teamsroomlist.png "Find Space ID")
 
 9.The API form is populated for you. Jsut press "Run"
-![alt text](Athena_Images1/teamsroomlist2.png "Find Space ID")
 
 10.The API request will be made and the Response will list all rooms assocaited with your webex account.
-![alt text](Athena_Images1/teamsroomlist3.png "Find Space ID")
-Find the room ID associated with the space you created earlier. (In the example above its the first room. Copy the "ID" from the response. For exmaple "Y2lzY29zcGFyazovL3VzL1JPT00vNzM0ODIzNzAtNWJiMC0xMWU5LTgzY2QtMGQ1YWM4YWM2OGMx"
+
+Find the room ID associated with the space you created earlier. (Like in the example above it's normally the first room. Copy the "id" from the response. For exmaple "Y2lzY29zcGFyazovL3VzL1JPT00vNzM0ODIzNzAtNWJiMC0xMWU5LTgzY2QtMGQ1YWM4YWM2OGMx"
 Remember to remove the quotes)
 
 11.Go back to built.io and Add the Room ID to you built.io workflow
-![alt text](Athena_Images1/builtaddroom.png "Find Space ID")
+
 Leave "User Email ID" blank and in the "Has File(s) box select "FALSE" from the drop down.
 Leave Trigger Execution as default "if other user posts a message"
 
-12.Now you will need your Giphy API. You get this by logging into [deveopers.giphy.com](https://https://developers.giphy.com) with your Giphy credentials you created earlier. If you didn't create a Gihpy account now.
+#### Steps 12 - 14 Getting our GIPHY API Key
 
-13.Click the "Create an App" button
+![alt text](Athena_Images1/step4.gif "Giphy step")
 
+12.Now you will need your Giphy API. You get this by logging into [developers.giphy.com](https://developers.giphy.com) with your Giphy credentials you created earlier. If you didn't create a Giphy account now.
 
-![alt text](Athena_Images1/giphycreatebutton.png "Find Space ID") and give you app an name and description select "Create New App"
+13.Click the "Create an App" button and give your app an name and description select "Create New App"
 
 14.You will now be presented with your very own Giphy API Key *(Make a copy of this)*
-![alt text](Athena_Images1/giphykey.png "Find Space ID")
 
-15.Now back to built.io and select a new Giphy Connection
-![alt text](Athena_Images1/builtaddgiphykeybox.png "Find Space ID")
+#### Steps 15 - 16 Adding our GIPHY API Key and finishing up
 
-16.Add the Key
+![alt text](Athena_Images1/step5.gif "Giphy step")
 
-![alt text](Athena_Images1/builtaddyourgiphykey.png "Find Space ID")
+15.Now lets go back to built.io and press next on our form to proceed selecting a new Giphy Connection
 
-17.Reenter your Webex Bot and Room ID
-![alt text](Athena_Images1/builtaddyourbotandspaceagain.png "Find Space ID"), click "Import This Workflow"
+16.Add the Key you got in the previous step and press next, Built.IO will ask you to confirm the Bot you wish to use one more time and the RoomID. Confirm these and finish up by 'importing this workflow' This moves the bot you've jsut created into your own projects space.
 
-18. Lastly, check you workflow is SAVED and ON
-![alt text](Athena_Images1/builtensureswitchedon.png "Find Space ID")
+![alt text](Athena_Images1/step6.gif "step 6")
 
-##Testing it All Works##
+18. Check the Bot has imported correctly by going to your projects and making sure its there. Lastly, check you workflow is set to ON.
+
+![alt text](Athena_Images1/step7.gif "step 7")
+
+## Testing it All Works
 
 1. Go to your webex Team desktop and into the space you created earlier with the Bot in it. Say "hello" to your Bot (remember to address the bot directly with an "@")
 
@@ -133,4 +132,10 @@ Leave Trigger Execution as default "if other user posts a message"
 and....drop the mic! You have a working chatbot with integrations.
 ![alt text](Athena_Images1/hilarious.png "Find Space ID")
 
-2.
+## Further resources
+
+Webex is just one of the platforms you have available to you, now you have a Webex Teams account you can use this to access the rest of our Cisco Developer Network and the wealth of tools available. This includes API documentation, walkthroughs and Sandboxes that allow you to get hands on with your code. The Cisco DevNet portal covers numerous technologies including AI/ML, collaboration, IoT and more! To access all this completely free content just follow the link below. and login with one of the options presented. Feel free to use the Webex Teams account that you created earlier!
+
+https://developer.cisco.com/join/athenahack19
+
+and if you have any questions, please reach out to our fantastic team onsite!
