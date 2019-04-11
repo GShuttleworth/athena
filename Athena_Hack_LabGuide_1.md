@@ -1,6 +1,10 @@
-#Athena Hack - Cisco Webex Lab Guide#
+# Athena Hack - Cisco Webex Lab Guide
 
-##Prerequisites##
+### Getting started
+
+These instructions will take you through the different tools and platforms used in this lab and provide you with a basic introduction to using the Cisco Webex Teams API and low code environment Built.io. With the aim of building a simple ChatBot. After completing this guide you may want to include Webex Teams in your own projects, if you do please reach out to one of our team onsite to let them know and see how we can support!
+
+### Prerequisites
 
 * A [Cisco Webex](https://www.webex.com)
 
@@ -10,30 +14,31 @@
 
 * Download Webex Teams Desktop https://www.webex.com/team-collaboration.html
 
-##Creating a Webex Teams Bot##
-In this section you will create a Webex Teams Chatbot from the Webex developer pages.
+### Registering for Cisco Webex Teams
 
-To create you webex teams bot log into [deveoper.webex.com](https://https://developer.webex.com)
+During this lab we will use the Cisco Webex Teams API to both send and receive messages for the ChatBot we are going to build. To do that the first thing we do is register for a free Webex Teams account which we can do by following the link below.
 
-1. Select the Bots "Automate workflows and gain efficiencies in Webex"
+http://cs.co/RegisterForTeams
 
-2. Click the "Create a Bot" button
+### Install the Webex Teams client
 
-3. Fill in the Bot Name and Username, select and Icon and give it a short description and select "Add Bot"
-![alt text](Athena_Images1/botcreate1.png "Logo Title Text 1")
+Once we're registered you may want to test out Webex Teams by sending and receiving a few messages, also during the lab we'll need to send some messages to our bot we're going to create. To do this we need to have a client. To download the client, follow to the link: https://www.webex.com/downloads.html and click the download button for the Webex Teams client.
 
-4. Your bot will be created and an Access Token and Bot ID will be generated.
-![alt text](Athena_Images1/botcreate2.png "Logo Title Text 1")
+Alternatively you can use the web browser client which can be found at: https://teams.webex.com
 
-PLEASE MAKE A COPY OF YOUR ACCESS TOKEN AND BOT ID. ONCE YOU LEAVE THIS PAGE YOU CAN NOT RETRIEVE IT AND A NEW TOKEN WILL NEED TO BE GENERATED
+### Creating our Bot in Webex Teams and getting an access token
 
-5. Click "ADD BOT" and your bot is ready to chat.
+Now we have our Teams account, we have access to developer site for Webex Teams: https://developer.webex.com. This portal has guides to the Teams API, SDK's available and example projects to help you on your developer journey. We won't go into the details of this site in this lab but we do need to create our bot and get an access token/
 
-##Creating a Webex Teams Room##
+To do this navigate to the 'My Apps' page of your account https://developer.webex.com/my-apps select 'Create New App' and when prompted choose the Bot type then complete by filling in the Bot Name / Username, selecting an Icon and giving it a short description. Once submitted, you will then be given an access token. Save this as we will use it later in the Built.io steps.
+
+![alt text](Athena_Images1/bot-bearer.gif "The Bot Creation Workflow")
+
+
+### Creating a Webex Teams Room
 In this section you will download the Webex Teams desktop client, create a new space and add your bot to the space.
 
 1. If you have not already done so, Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams download page.
-
 
 2. Select "Download Teams" and install.
 
