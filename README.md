@@ -174,6 +174,6 @@ Integrates Webex Teams with Diagflow, analyses the responses and captures the da
 ![alt text](https://github.com/dcgubbins/athena/blob/master/Athena_Images1/AthenaBuiltIOFlow2.jpg)
 detects the picture has been uploaded, sends it to dropbox, uses API to mae it public shareable, retrieves all the data from the Diagflow conversation and then posts to Smartsheet.
 
-For more information or you want to get your hands on this workflow have chat with one of the Cisco team who will be able to share it into your BuiltIO account. 
+**For more information or you want to get your hands on this workflow have chat with one of the Cisco team who will be able to share it into your BuiltIO account**
 
-#if you have any questions, please reach out to our fantastic team onsite!
+**_if you have any questions, please reach out to our fantastic team onsite!_**
