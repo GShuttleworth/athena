@@ -151,6 +151,9 @@ You are doing great. We are almost there!
 
 and....drop the mic! You have a working chatbot with integrations.
 
+## Have a Play
+Feel free to spend a bit of time understanding the details of this simple built.io workflow. Looks how the splicing is acheived before we call the Giphy API. Click a connecter and see that you can add a conditional to the trigger. Change what you bot is saying. Why not add some more elements to the workflow, i dunno.. send a tweet.  
+
 ## Further resources
 
 Webex is just one of the platforms you have available to you, now you have a Webex Teams account you can use this to access the rest of our Cisco Developer Network and the wealth of tools available. This includes API documentation, walkthroughs and Sandboxes that allow you to get hands on with your code. The Cisco DevNet portal covers numerous technologies including AI/ML, collaboration, IoT and more! To access all this completely free content just follow the link below. and login with one of the options presented. Feel free to use the Webex Teams account that you created earlier!
