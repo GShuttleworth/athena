@@ -46,9 +46,11 @@ To do this navigate to the 'My Apps' page of your account https://developer.webe
 ![alt text](Athena_Images1/bot-bearer.gif)
 
 ### Creating a Webex Teams Room
-In this section you will download the Webex Teams desktop client, create a new space and add your bot to the space.
+In this section you will create a new Webex Teams space and add your bot to the space.
 
-1. If you have not already done so, Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams download page. Go back to the "Install the Webex Teams client" section if you've missed that step.
+1. If you have not already done so, install Webex Teams Client. If you have already, go to step 2. 
+
+Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams download page. Go back to the "Install the Webex Teams client" section if you've missed that step.
 
 2. Once teams is installed create a new teams space by pressing the "+" sign on the client
 
