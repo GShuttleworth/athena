@@ -154,7 +154,7 @@ and....drop the mic! You have a working chatbot with integrations.
 ## Have a Play
 Feel free to spend a bit of time understanding the details of this simple built.io workflow. Looks how the splicing is acheived before we call the Giphy API. Click a connecter and see that you can add a conditional to the trigger. Change what you bot is saying. Why not add some more elements to the workflow, i dunno.. send a tweet. 
 
-The free account on built.io is limited to two triggers. Remember you can create two workflows with a trigger in each to determine your chatbot behaviours. We did that with our Plastic reporting teams space. 
+The free account on built.io is limited to two triggers. Remember you can create two workflows with a trigger in each to determine your chatbot behaviours. We did that with our Plastic reporting teams space. [Workflow1](..Athena_Images1/Athena-BuiltIO-Flow1.jpg)
 
 If you are really keen, now you understand the basics of teams, you can scrap built.io and code directly against the Webex Teams API yourself. All you need is on the developer.webex.com pages. 
 
