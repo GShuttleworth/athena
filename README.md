@@ -1,4 +1,6 @@
 # Athena Hack ChatBot - Cisco Webex Lab Guide
+If at any point the guide is not clear or you get stuck, just raise your hands and one of the Cisco team will help you out.
+
 
 ## Getting Started
 
@@ -162,11 +164,14 @@ Webex is just one of the platforms you have available to you, now you have a Web
 
 https://developer.cisco.com/join/athenahack19
 
-and if you have any questions, please reach out to our fantastic team onsite!
 
 ## Advanced BuiltIO Workflows
-The free account on built.io is limited to two triggers. Remember you can create two workflows with a trigger in each to determine your chatbot behaviours. We did that with our Plastic reporting teams space. 
+The free account on built.io is limited to two triggers. Remember you can create two workflows with a trigger in each to determine your chatbot behaviours. We did that with our Plastic reporting Teams Space. (examples below)
  
-![alt text](Athena_Images/AthenaBuiltIOFlow2.jpg "Logo Title Text 1")
 ![alt text](https://github.com/dcgubbins/athena/blob/master/Athena_Images1/AthenaBuiltIOFlow1.jpg)
 
+![alt text](https://github.com/dcgubbins/athena/blob/master/Athena_Images1/AthenaBuiltIOFlow2.jpg)
+
+For more information or you want to get your hands on this workflow have chat with one of the Cisco team who will be able to share it into your BuiltIO account. 
+
+#if you have any questions, please reach out to our fantastic team onsite!#
