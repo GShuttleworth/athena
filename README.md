@@ -5,9 +5,11 @@
 These instructions will take you through the different tools and platforms used in this lab and provide you with a basic introduction to using the Cisco Webex Teams API and low code environment Built.io. With the aim of building a simple ChatBot. After completing this guide you may want to include Webex Teams in your own projects, if you do please reach out to one of our team onsite to let them know and see how we can support!
 
 __to summarise. In this lab you will__
-Create a Chatbot (webex Teams Devepoper Portal)
-Create a Teams Space (Webex Teams Desktop)
-Create a built.io worklfow to control your Chatbot
+Create a Chatbot _(webex Teams Devepoper Portal)_
+
+Create a Teams Space_(Webex Teams Desktop)_
+
+Create a built.io worklfow to control your Chatbot _(Built.io)_
 
 You will need:
 *A webex Teams Account
