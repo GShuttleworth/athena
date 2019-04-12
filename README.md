@@ -119,7 +119,7 @@ Leave Trigger Execution as default "if other user posts a message"
 
 ![alt text](Athena_Images1/step6.gif "step 6")
 
-18. Check the Bot has imported correctly by going to your projects and making sure its there. Lastly, check you workflow is set to ON.
+17. Check the Bot has imported correctly by going to your projects and making sure its there. Lastly, check you workflow is set to ON.
 
 ![alt text](Athena_Images1/step7.gif "step 7")
 
