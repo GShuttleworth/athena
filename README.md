@@ -129,10 +129,9 @@ Leave Trigger Execution as default "if other user posts a message"
 
 1. Go to your webex Team desktop and into the space you created earlier with the Bot in it. Say "hello" to your Bot (remember to address the bot directly with an "@")
 
-![alt text](Athena_Images1/teamsbottalk.png "Find Space ID")
+![alt text](Athena_Images1/sendmessage.gif "Find Space ID")
 
 and....drop the mic! You have a working chatbot with integrations.
-![alt text](Athena_Images1/hilarious.png "Find Space ID")
 
 ## Further resources
 
