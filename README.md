@@ -50,7 +50,8 @@ In this section you will create a new Webex Teams space and add your bot to the 
 
 1. If you have not already done so, install Webex Teams Client. If you have already, go to step 2. 
 
-..(Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams  download page. Go back to the "Install the Webex Teams client" section if you've missed that step).
+...(Go to [Cisco Webex](https://www.webex.com) homepage and select "Team Collaboration". This will take you to the Teams  download page. Go back to the "Install the Webex Teams client" section if you've missed that step).
+
  
 2. Once teams is installed create a new teams space by pressing the "+" sign on the client
 
