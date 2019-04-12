@@ -167,5 +167,5 @@ and if you have any questions, please reach out to our fantastic team onsite!
 ## Advanced BuiltIO Workflows
 The free account on built.io is limited to two triggers. Remember you can create two workflows with a trigger in each to determine your chatbot behaviours. We did that with our Plastic reporting teams space. 
  
-![alt text](https://Athena_Images/AthenaBuiltIOFlow2.jpg "Logo Title Text 1")
+![alt text](https://Athena_Images/Athena BuiltIOFlow2.jpg "Logo Title Text 1")
 
