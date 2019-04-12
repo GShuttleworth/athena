@@ -77,7 +77,7 @@ If you have not already done so, log in or sign up [Built.io](http://built.io) a
 
 ![alt text](Athena_Images1/step1.gif "Step 1")
 
-1. Once you have logged in to built.io you will see the default screen where your projects will sit, right now we don't have any so lets move to step 2.
+1. Once you have logged in to built.io you will see the default screen where your projects will sit, right now we have a default project with an "Onboarding Flow#1 template" Ignore this. Nothing to see here. Lets move to step 2.
 
 2. select "Library" and you will see a list of pre-defined workflows. We want to select the "Webex Teams BOT" workflow ***There are two so make sure you pick the one that mentions BOT in the title (It's normally on the right hand side)***
 
