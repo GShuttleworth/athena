@@ -6,14 +6,14 @@ These instructions will take you through the different tools and platforms used 
 
 __to summarise. In this lab you will__
 1. Create a Chatbot _(webex Teams Devepoper Portal)_
-2. Create a Teams Space_(Webex Teams Desktop)_
+2. Create a Teams Space _(Webex Teams Desktop)_
 3. Create a built.io worklfow to control your Chatbot _(Built.io)_
 
 You will need:
-*A webex Teams Account..
-*A Webex Teams Desktop or Browswer Client..
-*A Built.io account..
-*A Giphy Account..
+* A webex Teams Account..
+* A Webex Teams Desktop or Browswer Client..
+* A Built.io account..
+* A Giphy Account..
 
 Ok. Lets get going....
 
