@@ -93,17 +93,17 @@ Now we start to populate the workflow with the Webex Teams information generated
 
 5. From the dialoge box select "Connect to Cisco Webex Teams Bot"
 
-6. Give the Bot a name and insert the Bot Token you recored in the prevous Bot creation steps
+6. Give the Bot a name and insert the Bot Token you recored in the prevous Bot creation steps _(you saved/copied it earlier remember, when you created the bot!)_  :-)
 
 #### Steps 7 - 12 Adding the RoomID
 
 ![alt text](Athena_Images1/step3.gif "Step 3")
 
-7.Now we need to add our space ID. To do this we need to go back to [developer.webex.com](https://developer.webex.com) and select documentation. We are looking for API REFERENCE and Rooms. [Shortcut here](https://developer.webex.com/docs/api/v1/rooms)
+7.Now we need to add our Webex Teams space ID. To do this we need to go back to [developer.webex.com](https://developer.webex.com) and select documentation. We are looking for API REFERENCE and Rooms. [Shortcut here](https://developer.webex.com/docs/api/v1/rooms)
 
 8.Once you are in the rooms API documentation you will find the Rooms API Calls. Select "LIST ROOMS"
 
-9.The API form is populated for you. Jsut press "Run"
+9.The API form is populated for you. Just press "Run"
 
 10.The API request will be made and the Response will list all rooms assocaited with your webex account.
 
@@ -114,6 +114,8 @@ Remember to remove the quotes)
 
 Leave "User Email ID" blank and in the "Has File(s) box select "FALSE" from the drop down.
 Leave Trigger Execution as default "if other user posts a message"
+
+You are doing great. We are almost there!
 
 #### Steps 12 - 14 Getting our GIPHY API Key
 
