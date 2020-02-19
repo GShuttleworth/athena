@@ -145,6 +145,20 @@ You are doing great. We are almost there!
 
 17. Check the Bot has imported correctly by going to your projects and making sure its there. Lastly, check you workflow is set to ON.
 
+## Filter the Jokes
+By default the bot will search for a joke. To keep things clean we need to tell it to filter out any explicit jokes.
+
+1. Open the edit menu on the bot flow in Built.io
+![alt text](Athena_Images1/edit.gif "step 7")
+
+2. Open the edit menu on the 'HTTP Request' Item.
+![alt text](Athena_Images1/edit2.gif "step 7")
+
+3. Set the URL to `http://api.icndb.com/jokes/random?exclude=[explicit]`
+![alt text](Athena_Images1/edit3.gif "step 7")
+
+4. Click Next, then click Done.
+![alt text](Athena_Images1/edit4.gif "step 7")
 ## Testing it All Works
 
 1. Go to your webex Team desktop and into the space you created earlier with the Bot in it. Say "hello" to your Bot (remember to address the bot directly with an "@")
